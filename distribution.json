@@ -1,0 +1,452 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Strengthening-1.21.4",
+      "name": "강화하게",
+      "description": "강화하게 Running Minecraft 1.21.4 (Fabric v0.18.6)",
+      "icon": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servericon.png",
+      "version": "1.0.0",
+      "address": "220.83.251.59:25565",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.6",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1959227,
+            "MD5": "01e9dc12d3e7e3b553e34a973d2793d1",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/repo/lib/net/fabricmc/fabric-loader/0.18.6/fabric-loader-0.18.6.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.18.6",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "30d412fbf2536bc1d1c25095d8742a03",
+                "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/repo/versions/1.21.4-fabric-0.18.6/1.21.4-fabric-0.18.6.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1505269,
+                "MD5": "d27dcb910788a0bd4bea72942a714093",
+                "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/repo/lib/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "moe.caramel.chat:caramelchat:1.2.2@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 163711,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/fabricmods/required/caramelChat-mc1.21.1-fabric-1.2.2.jar",
+            "MD5": "59c8ae912459442c192ff5537bf17f7a"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.4.12@jar",
+          "name": "Emotecraft",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 863362,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/fabricmods/required/emotecraft-for-MC1.21.1-2.4.12-fabric.jar",
+            "MD5": "068aace7ea97d0a511ce4e13599c7c79"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.116.10+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2425988,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/fabricmods/required/fabric-api-0.116.10+1.21.1.jar",
+            "MD5": "aaf363fd453f1be1c0bc7c6de5abfad1"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.35+mc1.21@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105000,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/fabricmods/required/indium-1.0.35+mc1.21.jar",
+            "MD5": "db92c620cb72a41403b928a0b45955d0"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.1.jar",
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297761,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.1.jar",
+            "MD5": "aa37ba0048a1af6b554b137088cad484"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.1-2.6.16@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5352159,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/fabricmods/required/voicechat-fabric-1.21.1-2.6.16.jar",
+            "MD5": "9fa518acf7fbd309114ac8678c6c68ba"
+          }
+        },
+        {
+          "id": "Arm dance.emotecraft",
+          "name": "Arm dance.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 20076,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Arm%20dance.emotecraft",
+            "path": "emotes/Arm dance.emotecraft"
+          }
+        },
+        {
+          "id": "Ascend.emotecraft",
+          "name": "Ascend.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 33255,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Ascend.emotecraft",
+            "path": "emotes/Ascend.emotecraft"
+          }
+        },
+        {
+          "id": "Back Flip.emotecraft",
+          "name": "Back Flip.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 1119,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Back%20Flip.emotecraft",
+            "path": "emotes/Back Flip.emotecraft"
+          }
+        },
+        {
+          "id": "Baller.emotecraft",
+          "name": "Baller.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 19861,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Baller.emotecraft",
+            "path": "emotes/Baller.emotecraft"
+          }
+        },
+        {
+          "id": "Clap.emotecraft",
+          "name": "Clap.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 50602,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Clap.emotecraft",
+            "path": "emotes/Clap.emotecraft"
+          }
+        },
+        {
+          "id": "cool sit.emotecraft",
+          "name": "cool sit.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 32264,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/cool%20sit.emotecraft",
+            "path": "emotes/cool sit.emotecraft"
+          }
+        },
+        {
+          "id": "Cry.emotecraft",
+          "name": "Cry.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 96121,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Cry.emotecraft",
+            "path": "emotes/Cry.emotecraft"
+          }
+        },
+        {
+          "id": "Dance (Ralsei).emotecraft",
+          "name": "Dance (Ralsei).emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 5154,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Dance%20(Ralsei).emotecraft",
+            "path": "emotes/Dance (Ralsei).emotecraft"
+          }
+        },
+        {
+          "id": "Facepalm.emotecraft",
+          "name": "Facepalm.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 88299,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Facepalm.emotecraft",
+            "path": "emotes/Facepalm.emotecraft"
+          }
+        },
+        {
+          "id": "Front flip.emotecraft",
+          "name": "Front flip.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 56784,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Front%20flip.emotecraft",
+            "path": "emotes/Front flip.emotecraft"
+          }
+        },
+        {
+          "id": "Hakari Dance (Sehen).emotecraft",
+          "name": "Hakari Dance (Sehen).emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 137996,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Hakari%20Dance%20(Sehen).emotecraft",
+            "path": "emotes/Hakari Dance (Sehen).emotecraft"
+          }
+        },
+        {
+          "id": "Hands up.emotecraft",
+          "name": "Hands up.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 77713,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Hands%20up.emotecraft",
+            "path": "emotes/Hands up.emotecraft"
+          }
+        },
+        {
+          "id": "head escape.emotecraft",
+          "name": "head escape.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 956418,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/head%20escape.emotecraft",
+            "path": "emotes/head escape.emotecraft"
+          }
+        },
+        {
+          "id": "Hi.emotecraft",
+          "name": "Hi.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 77487,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Hi.emotecraft",
+            "path": "emotes/Hi.emotecraft"
+          }
+        },
+        {
+          "id": "Hide (Hide and seek - barrel).emotecraft",
+          "name": "Hide (Hide and seek - barrel).emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 4485,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Hide%20(Hide%20and%20seek%20-%20barrel).emotecraft",
+            "path": "emotes/Hide (Hide and seek - barrel).emotecraft"
+          }
+        },
+        {
+          "id": "Lay on back.emotecraft",
+          "name": "Lay on back.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 13910,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Lay%20on%20back.emotecraft",
+            "path": "emotes/Lay on back.emotecraft"
+          }
+        },
+        {
+          "id": "lying on side.emotecraft",
+          "name": "lying on side.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 37352,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/lying%20on%20side.emotecraft",
+            "path": "emotes/lying on side.emotecraft"
+          }
+        },
+        {
+          "id": "piglin victory dance.emotecraft",
+          "name": "piglin victory dance.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 33881,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/piglin%20victory%20dance.emotecraft",
+            "path": "emotes/piglin victory dance.emotecraft"
+          }
+        },
+        {
+          "id": "Point.emotecraft",
+          "name": "Point.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 48217,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Point.emotecraft",
+            "path": "emotes/Point.emotecraft"
+          }
+        },
+        {
+          "id": "Sit on the edge.emotecraft",
+          "name": "Sit on the edge.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 20308,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Sit%20on%20the%20edge.emotecraft",
+            "path": "emotes/Sit on the edge.emotecraft"
+          }
+        },
+        {
+          "id": "Sit.emotecraft",
+          "name": "Sit.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 394,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Sit.emotecraft",
+            "path": "emotes/Sit.emotecraft"
+          }
+        },
+        {
+          "id": "smoking loop.emotecraft",
+          "name": "smoking loop.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 26478,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/smoking%20loop.emotecraft",
+            "path": "emotes/smoking loop.emotecraft"
+          }
+        },
+        {
+          "id": "Twerk.emotecraft",
+          "name": "Twerk.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 21539,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Twerk.emotecraft",
+            "path": "emotes/Twerk.emotecraft"
+          }
+        },
+        {
+          "id": "Wave.emotecraft",
+          "name": "Wave.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 60263,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Wave.emotecraft",
+            "path": "emotes/Wave.emotecraft"
+          }
+        },
+        {
+          "id": "Zero Two Wiggle.emotecraft",
+          "name": "Zero Two Wiggle.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 994295,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Zero%20Two%20Wiggle.emotecraft",
+            "path": "emotes/Zero Two Wiggle.emotecraft"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.6.1.zip",
+          "name": "ComplementaryUnbound_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500699,
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/shaderpacks/ComplementaryUnbound_r5.6.1.zip",
+            "MD5": "3f83f81df2ad4608d830017425b45bac",
+            "path": "shaderpacks/ComplementaryUnbound_r5.6.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
