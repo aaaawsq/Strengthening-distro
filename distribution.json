@@ -8,13 +8,13 @@
   },
   "servers": [
     {
-      "id": "Strengthening-1.21.4",
+      "id": "Strengthening-1.21.1",
       "name": "강화하게",
-      "description": "강화하게 Running Minecraft 1.21.4 (Fabric v0.18.6)",
+      "description": "강화하게 Running Minecraft 1.21.1 (Fabric v0.18.6)",
       "icon": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servericon.png",
       "version": "1.0.0",
       "address": "220.83.251.59:25565",
-      "minecraftVersion": "1.21.4",
+      "minecraftVersion": "1.21.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -34,13 +34,13 @@
           },
           "subModules": [
             {
-              "id": "1.21.4-fabric-0.18.6",
+              "id": "1.21.1-fabric-0.18.6",
               "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
                 "size": 2847,
-                "MD5": "30d412fbf2536bc1d1c25095d8742a03",
-                "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/repo/versions/1.21.4-fabric-0.18.6/1.21.4-fabric-0.18.6.json"
+                "MD5": "51e31826bedce875a797d1ea1d93e83a",
+                "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/repo/versions/1.21.1-fabric-0.18.6/1.21.1-fabric-0.18.6.json"
               }
             },
             {
@@ -104,13 +104,13 @@
               }
             },
             {
-              "id": "net.fabricmc:intermediary:1.21.4",
+              "id": "net.fabricmc:intermediary:1.21.1",
               "name": "Fabric (intermediary)",
               "type": "Library",
               "artifact": {
-                "size": 701826,
-                "MD5": "d0f4187a62328d4a95f3428434efbd48",
-                "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
               }
             }
           ]
@@ -121,7 +121,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 163711,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/fabricmods/required/caramelChat-mc1.21.1-fabric-1.2.2.jar",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/fabricmods/required/caramelChat-mc1.21.1-fabric-1.2.2.jar",
             "MD5": "59c8ae912459442c192ff5537bf17f7a"
           }
         },
@@ -131,7 +131,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 863362,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/fabricmods/required/emotecraft-for-MC1.21.1-2.4.12-fabric.jar",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/fabricmods/required/emotecraft-for-MC1.21.1-2.4.12-fabric.jar",
             "MD5": "068aace7ea97d0a511ce4e13599c7c79"
           }
         },
@@ -141,7 +141,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2425988,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/fabricmods/required/fabric-api-0.116.10+1.21.1.jar",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/fabricmods/required/fabric-api-0.116.10+1.21.1.jar",
             "MD5": "aaf363fd453f1be1c0bc7c6de5abfad1"
           }
         },
@@ -151,7 +151,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 105000,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/fabricmods/required/indium-1.0.35+mc1.21.jar",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/fabricmods/required/indium-1.0.35+mc1.21.jar",
             "MD5": "db92c620cb72a41403b928a0b45955d0"
           }
         },
@@ -161,7 +161,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2690177,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.1.jar",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/fabricmods/required/iris-fabric-1.8.8+mc1.21.1.jar",
             "MD5": "1179fe09b9ba970e84ed59259adfe65a"
           }
         },
@@ -171,7 +171,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1297761,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.1.jar",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/fabricmods/required/sodium-fabric-0.6.13+mc1.21.1.jar",
             "MD5": "aa37ba0048a1af6b554b137088cad484"
           }
         },
@@ -181,7 +181,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 5352159,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/fabricmods/required/voicechat-fabric-1.21.1-2.6.16.jar",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/fabricmods/required/voicechat-fabric-1.21.1-2.6.16.jar",
             "MD5": "9fa518acf7fbd309114ac8678c6c68ba"
           }
         },
@@ -191,7 +191,7 @@
           "type": "File",
           "artifact": {
             "size": 20076,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Arm%20dance.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Arm%20dance.emotecraft",
             "path": "emotes/Arm dance.emotecraft"
           }
         },
@@ -201,7 +201,7 @@
           "type": "File",
           "artifact": {
             "size": 33255,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Ascend.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Ascend.emotecraft",
             "path": "emotes/Ascend.emotecraft"
           }
         },
@@ -211,7 +211,7 @@
           "type": "File",
           "artifact": {
             "size": 1119,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Back%20Flip.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Back%20Flip.emotecraft",
             "path": "emotes/Back Flip.emotecraft"
           }
         },
@@ -221,7 +221,7 @@
           "type": "File",
           "artifact": {
             "size": 19861,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Baller.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Baller.emotecraft",
             "path": "emotes/Baller.emotecraft"
           }
         },
@@ -231,7 +231,7 @@
           "type": "File",
           "artifact": {
             "size": 50602,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Clap.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Clap.emotecraft",
             "path": "emotes/Clap.emotecraft"
           }
         },
@@ -241,7 +241,7 @@
           "type": "File",
           "artifact": {
             "size": 32264,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/cool%20sit.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/cool%20sit.emotecraft",
             "path": "emotes/cool sit.emotecraft"
           }
         },
@@ -251,7 +251,7 @@
           "type": "File",
           "artifact": {
             "size": 96121,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Cry.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Cry.emotecraft",
             "path": "emotes/Cry.emotecraft"
           }
         },
@@ -261,7 +261,7 @@
           "type": "File",
           "artifact": {
             "size": 5154,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Dance%20(Ralsei).emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Dance%20(Ralsei).emotecraft",
             "path": "emotes/Dance (Ralsei).emotecraft"
           }
         },
@@ -271,7 +271,7 @@
           "type": "File",
           "artifact": {
             "size": 88299,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Facepalm.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Facepalm.emotecraft",
             "path": "emotes/Facepalm.emotecraft"
           }
         },
@@ -281,7 +281,7 @@
           "type": "File",
           "artifact": {
             "size": 56784,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Front%20flip.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Front%20flip.emotecraft",
             "path": "emotes/Front flip.emotecraft"
           }
         },
@@ -291,7 +291,7 @@
           "type": "File",
           "artifact": {
             "size": 137996,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Hakari%20Dance%20(Sehen).emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Hakari%20Dance%20(Sehen).emotecraft",
             "path": "emotes/Hakari Dance (Sehen).emotecraft"
           }
         },
@@ -301,7 +301,7 @@
           "type": "File",
           "artifact": {
             "size": 77713,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Hands%20up.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Hands%20up.emotecraft",
             "path": "emotes/Hands up.emotecraft"
           }
         },
@@ -311,7 +311,7 @@
           "type": "File",
           "artifact": {
             "size": 956418,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/head%20escape.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/head%20escape.emotecraft",
             "path": "emotes/head escape.emotecraft"
           }
         },
@@ -321,7 +321,7 @@
           "type": "File",
           "artifact": {
             "size": 77487,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Hi.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Hi.emotecraft",
             "path": "emotes/Hi.emotecraft"
           }
         },
@@ -331,7 +331,7 @@
           "type": "File",
           "artifact": {
             "size": 4485,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Hide%20(Hide%20and%20seek%20-%20barrel).emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Hide%20(Hide%20and%20seek%20-%20barrel).emotecraft",
             "path": "emotes/Hide (Hide and seek - barrel).emotecraft"
           }
         },
@@ -341,7 +341,7 @@
           "type": "File",
           "artifact": {
             "size": 13910,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Lay%20on%20back.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Lay%20on%20back.emotecraft",
             "path": "emotes/Lay on back.emotecraft"
           }
         },
@@ -351,7 +351,7 @@
           "type": "File",
           "artifact": {
             "size": 37352,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/lying%20on%20side.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/lying%20on%20side.emotecraft",
             "path": "emotes/lying on side.emotecraft"
           }
         },
@@ -361,7 +361,7 @@
           "type": "File",
           "artifact": {
             "size": 33881,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/piglin%20victory%20dance.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/piglin%20victory%20dance.emotecraft",
             "path": "emotes/piglin victory dance.emotecraft"
           }
         },
@@ -371,7 +371,7 @@
           "type": "File",
           "artifact": {
             "size": 48217,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Point.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Point.emotecraft",
             "path": "emotes/Point.emotecraft"
           }
         },
@@ -381,7 +381,7 @@
           "type": "File",
           "artifact": {
             "size": 20308,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Sit%20on%20the%20edge.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Sit%20on%20the%20edge.emotecraft",
             "path": "emotes/Sit on the edge.emotecraft"
           }
         },
@@ -391,7 +391,7 @@
           "type": "File",
           "artifact": {
             "size": 394,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Sit.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Sit.emotecraft",
             "path": "emotes/Sit.emotecraft"
           }
         },
@@ -401,7 +401,7 @@
           "type": "File",
           "artifact": {
             "size": 26478,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/smoking%20loop.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/smoking%20loop.emotecraft",
             "path": "emotes/smoking loop.emotecraft"
           }
         },
@@ -411,7 +411,7 @@
           "type": "File",
           "artifact": {
             "size": 21539,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Twerk.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Twerk.emotecraft",
             "path": "emotes/Twerk.emotecraft"
           }
         },
@@ -421,7 +421,7 @@
           "type": "File",
           "artifact": {
             "size": 60263,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Wave.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Wave.emotecraft",
             "path": "emotes/Wave.emotecraft"
           }
         },
@@ -431,7 +431,7 @@
           "type": "File",
           "artifact": {
             "size": 994295,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/emotes/Zero%20Two%20Wiggle.emotecraft",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/emotes/Zero%20Two%20Wiggle.emotecraft",
             "path": "emotes/Zero Two Wiggle.emotecraft"
           }
         },
@@ -441,7 +441,7 @@
           "type": "File",
           "artifact": {
             "size": 500699,
-            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.4/files/shaderpacks/ComplementaryUnbound_r5.6.1.zip",
+            "url": "https://raw.githubusercontent.com/aaaawsq/Strengthening-distro/main/servers/Strengthening-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.6.1.zip",
             "MD5": "3f83f81df2ad4608d830017425b45bac",
             "path": "shaderpacks/ComplementaryUnbound_r5.6.1.zip"
           }
